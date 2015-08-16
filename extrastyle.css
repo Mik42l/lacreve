@@ -1,0 +1,31 @@
+div.inline > h1, div.inline > h3  { display: inline; }
+
+.disque > img{
+	width: 20%;
+}
+
+.concerts > li{
+	font-size:1rem;	
+
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+h2.concerts{
+	margin-bottom: 2rem;
+}
+h3.concerts {
+	margin-top: 0px;
+}
+
+#soussol {
+	height: 50%;
+}
+
+#lesobjetscrevent {
+	height: 50%;
+}
+
+#compilations {
+	margin-top: 4rem;
+}
