@@ -10,51 +10,94 @@
    img { mix-blend-mode: multiply; }
   </style>
 </head>
+<nav>
+<ul class="menu">
+  <li><a href="#home"></a></li>
+  <li><a href="#news"><img class="menu-img" src="assets/news_title.jpg" alt="News"/></a></li>
+  <li><a href="#musique"><img class="menu-img" src="assets/musique_title.jpg" alt="Musique" /></a></li>
+  <li><a href="#concerts"><img class="menu-img" src="assets/concerts_title.jpg" alt="Concerts" /></a></li>
+  <li><a href="#paroles"><img class="menu-img" src="assets/paroles_title.jpg" alt="Paroles" /></a></li>
+  <li><a href="#contact"><img class="menu-img" src="assets/contact_title.jpg" alt="Contact" /></a></li>
+</ul>
+</nav>
 <body>
+
   <article>
     <section>
        <figure class="fullwidth">
         <img src="assets/header.jpeg"/>
       </figure>
     </section>
-    <div class="inline">
-    <h1>La Crève</h1>
-    <h3> /////// Punk Rock Emotionnel /////// Grenoble</h3>
-  </div>
 
     
-    <section>
-      <h2>News</h2>
-       <ul>
+
+    <section id="news">
+      <div class="section-title">
+        <img class="title-1" src="assets/news_title.jpg" alt="News"/>
+        <img class="title-2" src="assets/news_title.jpg" alt="News"/>
+        <img class="title-3" src="assets/news_title.jpg" alt="News"/>
+      </div>
+
+      <ul>
         <li>On a enregistré une reprise de Raz-de-marée du groupe Escape pour une compilation à sortir de Stonehenge records. Yep</li>
-        
-       
       </ul>
+        
+
     </section>
 
-    <section>
+    <section id="musique">
      
-      <h2>Musique</h2>
-            <p>
-      <span class="marginnote"><img src="assets/musique.jpg"/></span>
-    </p>
+      <div class="section-title">
+        <img class="title-1" src="assets/musique_title.jpg" alt="Musique"/>
+        <img class="title-2" src="assets/musique_title.jpg" alt="Musique"/>
+        <img class="title-3" src="assets/musique_title.jpg" alt="Musique"/>
+      </div>
       <h3>S/T, cd & K7 (juin 2014)</h3>
+      <div class="table-wrapper">
       <table>
         <tbody>
-          <tr><td></td><td></td></tr>
+          <tr><td rowspan=2><div class="song-list">titres : photomaton / 103 forever bis / déménagement / communication / 26 ans d'écart / les amis / idées noires en boucle / les vacances / négative / cimenterie / hyperactivité / plus que de la musique </div>
+            <div class="song-list"> enregistré par Fantômas à la Boisière en octobre 2013  mixé et masterisé par Harry Potard au printemps 2014 </div>
+            <div class="song-list"> pochette sérigraphiée au 103 à Grenoble en juin 2014 </div>
+            <div class="song-list"> 250 CD / 250 K7</div></td>
+            <td rowspan=2 class="gutter"></td>
+            <td>
+            <img src="assets/k7lacreve.jpg"/>
+            </td>
+          </tr>
+          <tr>
+              <td>
+               <img src="assets/cdlacreve.jpg" />
+             </td>
+          </tr>
         </tbody>
       </table>
-      <figure class="disque">
-          <img src="assets/k7lacreve.jpg"/>
-          <img src="assets/cdlacreve.jpg" />
-        </figure> 
-
+    </div>
       <h3>Les objets crèvent, split disque avec Les Objets Meurent (mai 2011)</h3>
-            <p><figure>
-          <img id="lesobjetscrevent" src="assets/lesobjetscrevent.jpg"/>
 
-        </figure> 
-      </p>
+            <div class="table-wrapper">
+      <table>
+        <tbody>
+          <tr><td><div class="song-list">titres: montagnes russes / 103 forever bis / fluo dans le noir / idées noires en boucle / cimenterie </div>
+            <div class="song-list"> enregistré par raf et masterisé par mako à kraken durant les rencontres taenia solium </div>
+            <div class="song-list"> pochette sérigraphiée au 103 à Grenoble en juin 2014 </div>
+            <div class="song-list"> 50 CD</div></td>
+            <td class="gutter"></td>
+            <td>
+              <figure>
+                 <img src="assets/lesobjetscrevent.jpg"/>
+              </figure> 
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+         
+
+
+ 
+      
       
     <h3 id="compilations">Compilations</h3>
       <h4>Stonehenge Records<label for="1" class="margin-toggle sidenote-number"></label>, Raz de Marée de Escape (2015)</h4>
@@ -69,8 +112,12 @@
       </p>
      </section>
 
-         <section >
-      <h2 class="concerts">Concerts</h2>
+         <section id="concerts">
+      <div class="section-title">
+        <img class="title-1" src="assets/concerts_title.jpg" alt="Concerts"/>
+        <img class="title-2" src="assets/concerts_title.jpg" alt="Concerts"/>
+        <img class="title-3" src="assets/concerts_title.jpg" alt="Concerts"/>
+      </div>
       <p>
       <span class="marginnote"><img src="assets/concerts2.jpg"/></span>
     </p>
@@ -91,8 +138,12 @@
       </ul>
     </section>
 
-    <section>
-      <h2>Paroles</h2>
+    <section id="paroles">
+       <div class="section-title">
+        <img class="title-1" src="assets/paroles_title.jpg" alt="Paroles"/>
+        <img class="title-2" src="assets/paroles_title.jpg" alt="Paroles"/>
+        <img class="title-3" src="assets/paroles_title.jpg" alt="Paroles"/>
+      </div>
             <blockquote cite="http://www.edwardtufte.com/bboard/q-and-a-fetch-msg?msg_id=0000hB">
         <p>[It is] notable that the Feynman lectures (3 volumes) write about all of physics in 1800 pages, using only 2 levels of hierarchical headings: chapters and A-level heads in the text. It also uses the methodology of <em>sentences</em> which then cumulate sequentially into <em>paragraphs</em>, rather than the grunts of bullet points. Undergraduate Caltech physics is very complicated material, but it didn't require an elaborate hierarchy to organize.</p>
         <footer><a href="http://www.edwardtufte.com/bboard/q-and-a-fetch-msg?msg_id=0000hB">Edward Tufte, forum post, 'Book design: advice and examples' thread</a></footer>
@@ -103,9 +154,13 @@
       </ul>
     </section>
 
-<section>
+<section id="contact">
 
-      <h2>Contact</h2>
+       <div class="section-title">
+        <img class="title-1" src="assets/contact_title.jpg" alt="Contact"/>
+        <img class="title-2" src="assets/contact_title.jpg" alt="Contact"/>
+        <img class="title-3" src="assets/contact_title.jpg" alt="Contact"/>
+      </div>
         
       <p>
         <span class="marginnote"><img src="assets/contact.jpg"/></span>
