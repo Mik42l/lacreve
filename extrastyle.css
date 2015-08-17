@@ -40,7 +40,7 @@ h3.concerts {
 	width: 10px;
 }
 nav {
-
+	z-index: 10;
 	position:fixed;
 	background-color: #fffff8;
 	top:0px;
@@ -77,7 +77,10 @@ nav {
 	background-repeat: repeat-x;
 
 }
-   
+
+.section-title{
+	margin-top:50px;
+}
 .title-1{
 	height: 50px;
 	width: auto;
@@ -94,5 +97,4 @@ nav {
 }
 
 article {
-	top:70px;
 }
